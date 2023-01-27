@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-sans-serif;
+  box-sizing: border-box;
+}
+
+/*Style for all navigation*/
+.navigation {
+  background-color:  #20B2AA;
+  overflow: hidden;
+}
+
+.logo img{
+    position: absolute;
+    margin: 5px 0 0 10px;
+    height: 50px;
+    width: 50px;
+    clear: right;
+  }
+
+/* Style the links inside the naviTitle bar */
+.naviTitle a {
+  float: left;
+  color: white;
+  text-align: right;
+  padding: 20px 40px;
+  text-decoration: none;
+  font-size: 16px;
+  margin-left: 50px;
+}
+
+/* Style the links inside the naviOption bar */
+.naviOption a {
+  float: right;
+  color: white;
+  text-align: right;
+  padding: 20px 14px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+
+/* Change the color of links on hover */
+.naviOption a:hover {
+  background-color: #00CED1;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.navigation a.active {
+  background-color: #00BFFF;
+  color: white;
+}
+
+.hero {
+  width: 100%;
+  min-height: 100vh;
+  background: #dae4ff;
+  padding-left: 6%;
+  padding-right: 6%;
+padding-top: 60px;
+}
+
+.row {
+  width: 100%;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+
+.col-1 {
+  padding: 8% 5%;
+  position: relative;
+}
+
+.col-1 h1 {
+  font-size: 60px;
+  line-height: 80px;
+  letter-spacing: 2px;
+}
+
+.col-1 p {
+  color: #777;
+  line-height: 22px;
+  margin: 15px 0 30px;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
